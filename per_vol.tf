@@ -1,5 +1,5 @@
 resource "aws_ebs_volume" "example" {
-  availability_zone = "us-west-2a"  # Replace with your AZ
+  availability_zone = "us-west-2a" 
   size              = 10  # 10 GiB
   type              = "gp3"  # EBS volume type
 }
